@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: rgb(223, 228, 233);
+  height: 50px;
+  width: 900px;
+  margin: 0px auto;
+  color: brown;
+  font-family: Sofia;
+  font-weight: 900;
+  font-size: 40px;
+  padding: 10px 50%;
+}
+.img {
+  height: auto;
+  width: 760px;
+  margin: 80px;
+  float: left;
+}
+
+.img1 {
+  background-image: url(./assets/img/Marvel_Studios_logo.jpg);
+  height: 360px;
+  width: 680px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid rgb(214, 211, 211);
+}
+
+.img2 {
+  background-image: url(./assets/img/Marvel_Studios_logo.jpg);
+  height: 100px;
+  width: 180px;
+  display: inline-block;
+  margin: 50px 10px 0px 0px;
+  border: 2px solid rgb(214, 211, 211);
+  background-size: contain;
+  cursor: pointer;
+  transition: 0.3s linear ;
+}
+.img3 {
+  background-image: url(./assets/img/Marvel_Studios_logo.jpg);
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+  margin: 50px 10px 0px 0px;
+  border: 2px solid rgb(214, 211, 211);
+  background-size: contain;
+  cursor: pointer;
+  transition: 0.3s linear ;
+}
+.img4 {
+  background-image: url(./assets/img/Marvel_Studios_logo.jpg);
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+  margin: 50px 10px 0px 0px;
+  border: 2px solid rgb(214, 211, 211);
+  background-size: contain;
+  cursor: pointer;
+  transition: 0.3s linear ;
+}
+
+.img5 {
+  background-image: url(./assets/img/Marvel_Studios_logo.jpg);
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+  margin: 50px 10px 0px 0px;
+  border: 2px solid rgb(214, 211, 211);
+  background-size: contain;
+  cursor: pointer;
+  transition: 0.3s linear ;
+}
+
+.text {
+ float: left;
+margin: 70px auto;
+ width: 400px; 
+ 
+}
+.title{
+  width:400px;
+  float: left;
+  font-family: Sofia;
+  font-weight: 500;
+  color: black;
+  font-size: 40px;
+ 
+ border-bottom:  2px solid red;
+}
+.marvel{
+  width:auto ;
+  float: left;
+  font-family: Sofia;
+  font-weight: 300;
+  color: black;
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 10px;
+  
+
+}
+.img div:hover{
+ 
+  box-shadow:  inset 0 0 0 3px #8a8a8a;
+  transform: scale(1.2);
+}

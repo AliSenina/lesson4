@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.block {
+  background-color: rgb(238, 232, 232);
+  height: 50px;
+}
+.title {
+  float: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+}
+
+.menu {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  list-style: none;
+  transition: 0.3s all;
+  margin: auto 0px;
+}
+.menu div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+}
+.menu div:hover {
+  background: rgba(128, 128, 128, 0.315);
+  cursor: pointer;
+}

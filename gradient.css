@@ -1,0 +1,37 @@
+.block {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.block div {
+  width: 300px;
+  height: 500px;
+  font-family: Arsenal;
+  font-weight: 700;
+  font-size: 70px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block1 {
+  background: linear-gradient(to bottom, #dc2424, #471818);
+}
+.block2 {
+  background: linear-gradient(to top, #da90ec, #9900f1);
+}
+.block3 {
+  background: linear-gradient(to bottom, #55f7b9, #e0840c);
+}
+.block4 {
+  background: linear-gradient(to top, #138157, #3a1919);
+}
+.block5 {
+  background: linear-gradient(to bottom, #e78888, #e2d8d8);
+}
+.block6 {
+  background: linear-gradient(to bottom, #dc2424, #471818);
+}
+.block7 {
+  background: linear-gradient(to top, #eeeeee, #3f2f0b);
+}
